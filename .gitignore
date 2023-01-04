@@ -1,5 +1,6 @@
 devops/backend
 devops/*.tfvars
+.kube/kubeconfig.yaml
 
 *.code-workspace
 
@@ -32,3 +33,4 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
