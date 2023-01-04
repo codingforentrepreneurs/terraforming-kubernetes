@@ -1,3 +1,6 @@
+devops/backend
+devops/*.tfvars
+
 *.code-workspace
 
 # Local .terraform directories
