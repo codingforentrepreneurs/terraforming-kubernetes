@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cfe-nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cfe-nginx-deployment
+  template:
+    metadata:
+      labels:
+        app: cfe-nginx-deployment
+    spec:
+      containers:
+        - name: cfe-nginx-container
+          image: codingforentrepreneurs/cfe-nginx:latest
+          imagePullPolicy: Always
+          ports:
+            - name: cfe-nginx-port
+              containerPort: 80
