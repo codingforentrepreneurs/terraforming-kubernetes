@@ -6,3 +6,6 @@ plan:
 
 apply:
 	terraform -chdir=./devops apply
+
+console:
+	terraform -chdir=./devops console
