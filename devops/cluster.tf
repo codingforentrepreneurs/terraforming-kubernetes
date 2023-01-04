@@ -1,12 +1,12 @@
 resource "linode_lke_cluster" "terraform-k8s-resource" {
-    label       = "terraform-k8s-cluster"
-    k8s_version = "1.24"
-    region      = "us-east"
-    tags        = ["terraform-k8s"]
+    label       = var.k8s_label
+    k8s_version = var.k8s_version
+    region      = var.k8s_region
+    tags        = var.k8s_tags
 
     pool {
-        type  = "g6-standard-1"
-        count = 3
+        type  = var.k8s_node_type
+        count = var.k8s_node_count
     }
 }
 
