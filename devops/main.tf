@@ -6,6 +6,7 @@ terraform {
       # version = "..."
     }
   }
+  backend "s3" {}
 }
 
 
