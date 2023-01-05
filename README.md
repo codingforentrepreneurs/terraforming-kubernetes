@@ -1,3 +1,4 @@
+[![Terraforming Kubernetes Image](https://static.codingforentrepreneurs.com/media/courses/terraforming-kubernetes-on-linode/5d16a50c-a2f3-40e5-8906-eb375d696d81.jpg)](https://www.codingforentrepreneurs.com/courses/terraforming-kubernetes-on-linode/)
 # Terraforming Kubernetes
 What if starting a remote virtual machine instance was as simple as changing a number on a document and running a command? That is how simple terraform can be and why it's so powerful.
 
