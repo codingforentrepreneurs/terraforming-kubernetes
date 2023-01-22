@@ -33,7 +33,7 @@ cd terraforming-kubernetes
 2. Create an API Personal Access Key on Linode [here](https://cloud.linode.com/profile/tokens)
 
 ```bash
-echo "linode_api_token='YOUR_API_KEY'" >> devops/terraform.tfvars
+echo "linode_api_token=\"YOUR_API_KEY\"" >> devops/terraform.tfvars
 ```
 
 ### Configure Cloud-based Terraform State on a Object Storage Bucket
