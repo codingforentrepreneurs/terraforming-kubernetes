@@ -7,7 +7,7 @@ variable "k8s_label" {
 }
 
 variable "k8s_version" {
-  default       = "1.24"
+  default       = "1.25"
 }
 
 variable "k8s_region" {
